@@ -343,10 +343,97 @@ section.section {
 
 
 
+.selection-1{
+    background-color: var(---color-dark);
+    color: var(---color-light);
+}
+
+.selection-2{
+    background-color: #00bef0;
+}
 
 
 
 
+/* Brand TV Section */
+.header-nav{
+    background-color: #004658;
+}
+
+
+
+.selection select {
+    padding: .7rem 2rem;
+    margin: 0 1rem;
+}
+
+.filter-items{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.icon i {
+    background-color: var(---color-dark);
+    color: var(---color-light);
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+
+
+
+.tv-brands{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, 290px);
+    position: relative;
+    grid-gap: 3rem;
+}
+
+
+.tv-image{
+    height: 20rem;
+}
+
+
+.rating i{
+    color: var(---color-primary);
+    font-size: 1.6rem;
+}
+
+.tv-brands h3 {
+    font-size: 2rem;
+    color: var(---color-dark);
+}
+
+.brand-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+
+.brand-icons {
+    display: flex;
+
+}
+
+.brand-icons i {
+    margin: 0 .4rem;
+    font-size: 1.6rem;
+}
+
+.brand-icons i:nth-child(1) {
+    color: var(---color-primary);
+}
 
 /* Footer Section */
 
